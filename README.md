@@ -16,6 +16,11 @@ The device also supports on/off control via a pressable rotary encoder,
 offering intuitive operation alongside brightness adjustment. 
 This enhances user interaction by combining tactile feedback with versatile functionality.
 
+One key feature of the dimmer is its high-frequency PWM signal,
+which minimizes flickering and makes it ideal for environments involving video recording or photography.
+High-frequency PWM helps eliminate visible flicker when filming,
+ensuring smooth and professional-looking footage even with changing lighting conditions.
+
 The construction features a two-layer PCB for reliable performance and compact design. 
 Additionally, a 3D-printable case is included, 
 allowing the device to be securely placed on a tabletop—combining functionality with convenience.

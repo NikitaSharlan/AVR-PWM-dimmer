@@ -2,30 +2,19 @@
 
 const uint8_t pwm_curve[11]={
 	0,		//	0%	- 0
-	2,		// ~10% - 1
-	5,		// ~20% - 2
-	9,		// ~30% - 3
-	16,		// ~40% - 4
-	27,		// ~50% - 5
-	43,		// ~60% - 6
-	65,		// ~70% - 7
-	95,		// ~80% - 8
-	130,	// ~90% - 9
-	170		// ~100% - 10
+	2,		//	~10% - 1
+	5,		//	~20% - 2
+	9,		//	~30% - 3
+	16,		//	~40% - 4
+	27,		//	~50% - 5
+	43,		//	~60% - 6
+	65,		//	~70% - 7
+	95,		//	~80% - 8
+	130,	//	~90% - 9
+	170		//	~100% - 10
 };
 
 void ports_ini(void){
-	/*
-	PB0 connected to led B				PC0 connected to X				PD0 connected to RXD
-	PB1 connected to led C				PC1 connected to X				PD1 connected to X
-	PB2 connected to led D				PC2 connected to X				PD2 connected to INT0/BTN
-	PB3 connected to MOSI/OC2			PC3 connected to X				PD3 connected to INT1/Enc_A
-	PB4 connected to led E				PC4 connected to X				PD4 connected to Enc_B
-	PB5 connected to SCK/led A			PC5 connected to X				PD5 connected to led DP
-	PB6 connected to led G				PC6 connected to RESET			PD6 connected to X
-	PB7 connected to led F												PD7 connected to X
-	*/
-	
 	DDRB=0b11111111;
 	PORTB=0;
 	

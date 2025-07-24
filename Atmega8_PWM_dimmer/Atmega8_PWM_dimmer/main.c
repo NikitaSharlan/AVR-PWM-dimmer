@@ -132,11 +132,13 @@ ISR(INT0_vect){
 	_delay_ms(5);
 	if (is_enable==1){
 		is_enable=0;
-		display('d');
 		PWM_manual(0);
+		display('d');
+		PWR = 0;
 		return;
 	} 
 	is_enable = true;
+	PWR = 10;
 	display('F');
 	PWM_manual(10);
 }
@@ -223,8 +225,8 @@ int main(void){
 	 
 	sei();
 	ports_ini();
-	display('d');
 	PWM_manual(0);
+	display('d');
 
 	while(1)
 	{

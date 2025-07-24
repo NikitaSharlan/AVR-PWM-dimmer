@@ -28,5 +28,5 @@ Tools Used in This Project:
 
 Take a look below to explore the illustrations showcasing the device’s features and setup.
 
-![PCB 3D](res/PCB 3D.png)
+![PCB 3D](res/PCB_3D.png)
 

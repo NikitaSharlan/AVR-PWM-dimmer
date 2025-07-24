@@ -30,5 +30,5 @@ Take a look below to explore the illustrations showcasing the device’s feature
 
 ![PCB 3D](res/PCB_3D.png)
 
-![PCB 3D](res/Front_panel_3D.png)
+![PCB 3D](res/Front_view_3D.png)
 

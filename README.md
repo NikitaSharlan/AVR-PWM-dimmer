@@ -33,7 +33,18 @@ Tools Used in This Project:
 
 Take a look below to explore the illustrations showcasing the device’s features and setup.
 
-![PCB 3D](res/PCB_3D.png)
+<p align="center">
+  <img src="res/PCB_3D.png" alt="PCB 3D">
+</p>
 
-![PCB 3D](res/Front_view_3D.png)
+<p align="center">
+  <img src="res/Front_view_3D.png" alt="CAD 3D">
+</p>
+
+<p align="center">
+  <img src="res/Photo_view.png" alt="Real">
+</p>
+
+
+
 
